@@ -4,7 +4,7 @@ This is a simple webapp built with React, Express, and TypeScript.
 
 ## Setup
 
-To run this app, you'll need to have `node` and `npm installed on your machine -- at least version 20.
+To run this app, you'll need to have `node` and `npm` installed on your machine -- at least version 20.
 
 Once that's done, just run `npm install` in this repository.
 
