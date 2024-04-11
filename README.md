@@ -33,5 +33,5 @@ npm run start:frontend
 npm run start:backend
 ```
 
-Navigate to `http://localhost:3000` to access the frontend
-Send requests to `http://localhost:4000` to communicate with the backend
+- Navigate to `http://localhost:3000` to access the frontend
+- Send requests to `http://localhost:4000` to communicate with the backend
