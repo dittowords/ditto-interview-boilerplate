@@ -19,5 +19,6 @@ app.get("/counter", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server listening at localhost:${PORT}`);
+  console.log(`-----`);
+  console.log(`Express server listening at localhost:${PORT}`);
 });
