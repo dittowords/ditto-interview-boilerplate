@@ -4,17 +4,34 @@ This is a simple webapp built with React, Express, and TypeScript.
 
 ## Setup
 
-To run this app, you'll need to have `node` and `npm` installed on your machine -- at least version 20.
+1. Install Node.js v20 - we recommend using Node Version Manager; follow these [installation instructions](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script), then execute the commands below:
 
-Once that's done, just run `npm install` in this repository.
+```
+nvm install v20
+nvm alias default v20
+```
+
+2. Run `npm run setup` in the root of this repository to install all dependencies.
 
 ## Running The App
 
-To start the app, run `npm start` in the root of this repository.
+From the root of this repository:
+
+```
+npm start
+```
+
 This will kick off two concurrent processes:
 
 - The React app will be served on `http://localhost:3000`, and hot-reload when you save any changes in `/src`
 - The Express server will be served on `http://localhost:4000`, and hot-reload when you save any changes to `server.ts`.
+
+You can also run the frontend and backend as separate processes using the following commands:
+
+```
+npm run start:frontend
+npm run start:backend
+```
 
 ## Basic Features
 
